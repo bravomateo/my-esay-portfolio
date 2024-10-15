@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+html, body {
+    height: 100%;
+
+}
+
+body {
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-container {
+    flex: 1; 
+    max-width: 100%;
+    padding: 20px;
+}
+
+.todo-header {
+    font-size: 46px;
+    background-color: white;
+    padding: 64px;  
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.todo-list {
+    list-style: none; 
+    font-size: 36px;
+    padding: 42px;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 60%; 
+    background-color: white;
+
+}
+
+
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    margin-bottom: 25px;
+    border: 2px solid black; 
+    border-radius: 18px; 
+    background-color: white;
+
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; 
+    margin-left: auto;
+}
+
+
+.complete-btn, .delete-btn {
+
+    fill: green; 
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 24px;
+    padding: 16px 16px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.add-todo-container {
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 32px;
+
+}
+
+.add-todo-header {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.add-todo-input {
+    font-size: 28px;
+    padding: 16px;
+    width: 30%;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.add-todo-button {
+    font-size: 24px;
+    padding: 18px 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #61DAFA;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.completed-count {
+    color: #61DAFA;
+}
+
+.total-count {
+    color: #61DAFA;
+}
+
+
+

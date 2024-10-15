@@ -1,0 +1,14 @@
+{
+  "name": "my_easy_portfolio",
+  "version": "1.0.0",
+  "description": "Aplicacion web para ayudar a personas a crear y gestionar portafolios digitales",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mateo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
